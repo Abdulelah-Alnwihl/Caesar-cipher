@@ -21,7 +21,7 @@ letter = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 choice = str(input(Fore.RESET +Style.RESET_ALL+"[+]Encryption or Decryption ? E or D ?"))
 if choice.upper()=="E":
 
-    word = str(input("[+]Enter the word in plain text form "))
+    word = str(input("[+]Enter the word in plain text form: "))
     
     key = int(input("[+]Key? "))
 

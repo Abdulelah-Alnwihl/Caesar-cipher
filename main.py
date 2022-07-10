@@ -2,7 +2,7 @@
 from colorama import Fore,Style
 from colorama import init
 from pyfiglet import figlet_format
- import os
+import os
 os.system("pip install colorama")
 os.system("pip install pyfiglet")
 print(figlet_format("caesar cipher",font="standard"))

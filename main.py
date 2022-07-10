@@ -1,10 +1,10 @@
 #coding: utf-8
-from colorama import Fore,Style
-from colorama import init
-from pyfiglet import figlet_format
 import os
 os.system("pip install colorama")
 os.system("pip install pyfiglet")
+from colorama import Fore,Style
+from colorama import init
+from pyfiglet import figlet_format
 print(figlet_format("caesar cipher",font="standard"))
 print("Created by @i74b")
 print("""
